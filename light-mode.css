@@ -1,0 +1,12 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+#theme-toggle {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Add more light mode styles */

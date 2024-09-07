@@ -1,0 +1,12 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#theme-toggle {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Add more dark mode styles */
