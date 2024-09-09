@@ -24,9 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // About Me section typing effect
-    const aboutMeContent = `root@trentwilliams:~#: Welcome to my portfolio!
+    const aboutMeContent = `root@trentwilliams:~#: whoami
+Welcome to my portfolio!
 My name is Trent.
-I'm a passionate developer and cybersecurity expert with experience in various technologies.
+I'm a passionate cybersecurity expert and developer with experience in various technologies.
 I love coding and solving complex problems.
 Feel free to explore my projects and skills.`;
 
