@@ -27,21 +27,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 //new 
-//document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     // Existing code...
 
-    //function adjustLayout() {
-    //const aboutMeContent = document.getElementById('about-me-content');
-    //if (window.innerWidth < 768) {
-        //aboutMeContent.classList.add('mobile-view');
-    //} else {
-        //aboutMeContent.classList.remove('mobile-view');
-    //}
-//}
+    function adjustLayout() {
+    const aboutMeContent = document.getElementById('about-me-content');
+    if (window.innerWidth < 768) {
+       aboutMeContent.classList.add('mobile-view');
+    } else {
+        aboutMeContent.classList.remove('mobile-view');
+    }
+}
 
 
-    //window.addEventListener('resize', adjustLayout);
-    //window.addEventListener('load', adjustLayout); // Ensure layout is correct on load
+    window.addEventListener('resize', adjustLayout);
+    window.addEventListener('load', adjustLayout); // Ensure layout is correct on load
 
     // Existing theme toggle and typing effect code...
 });
