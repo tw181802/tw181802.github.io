@@ -23,6 +23,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+
+
+
+//new 
+document.addEventListener('DOMContentLoaded', () => {
+    // Existing code...
+
+    function adjustLayout() {
+        const portfolioContainer = document.getElementById('portfolio-container');
+        if (window.innerWidth < 768) {
+            portfolioContainer.classList.add('mobile-view');
+        } else {
+            portfolioContainer.classList.remove('mobile-view');
+        }
+    }
+
+    window.addEventListener('resize', adjustLayout);
+    window.addEventListener('load', adjustLayout); // Ensure layout is correct on load
+
+    // Existing theme toggle and typing effect code...
+});
+
+
+
+
     // About Me section typing effect
     const aboutMeContent = `root@trentwilliams:~#: whoami
 Welcome to my portfolio!
