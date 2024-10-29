@@ -31,13 +31,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Existing code...
 
     function adjustLayout() {
-        const portfolioContainer = document.getElementById('portfolio-container');
-        if (window.innerWidth < 768) {
-            portfolioContainer.classList.add('mobile-view');
-        } else {
-            portfolioContainer.classList.remove('mobile-view');
-        }
+    const aboutMeContent = document.getElementById('about-me-content');
+    if (window.innerWidth < 768) {
+        aboutMeContent.classList.add('mobile-view');
+    } else {
+        aboutMeContent.classList.remove('mobile-view');
     }
+}
+
 
     window.addEventListener('resize', adjustLayout);
     window.addEventListener('load', adjustLayout); // Ensure layout is correct on load
