@@ -8,6 +8,28 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/*new */
+/* Existing styles... */
+
+/* Example CSS for mobile responsiveness */
+body {
+    font-size: 16px; /* Default font size */
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Smaller font for mobile */
+    }
+
+    #portfolio-container {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    /* Additional styles for other elements */
+}
+
+
+
 /* Light/Dark Mode Toggle Button */
 #theme-toggle {
     position: fixed;
