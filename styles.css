@@ -1,16 +1,17 @@
 /* new */
 
-@media (max-width: 660px) {
-    body {
-        font-size: 10px; /* Smaller font for mobile */
-    }
-
-    #portfolio-container {
-        padding: 10px; /* Adjust padding for mobile */
-    }
-
-    /* Additional styles for other elements */
+#about-me-content {
+    font-size: 1rem; /* Default font size */
+    padding: 20px; /* Default padding */
 }
+
+@media (max-width: 768px) {
+    #about-me-content {
+        font-size: 0.9rem; /* Smaller font size for mobile */
+        padding: 10px; /* Less padding for mobile */
+    }
+}
+
 
 /* General Body Styling */
 body {
